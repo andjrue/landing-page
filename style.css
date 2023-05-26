@@ -1,0 +1,157 @@
+header {
+    background-color: #1F2937;
+    font-family: sans-serif;
+    height: auto;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    padding: 10px;
+}
+
+body {
+    background-color: #1f2937;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: left;
+    flex-direction: row;
+}
+/* TOP OF WEBSITE */
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 3000px;
+    height: auto;
+    background-color: #1f2937;
+  }
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 100px;
+    padding: 10px;
+}
+
+.container2 {
+    background-color: #1F2937;
+    font-family: sans-serif;
+    height: auto;
+    width: auto;
+    display: flex;
+    background-color: #1f2937;
+}
+
+.website {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+    display: inline-flexbox;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    margin-top: auto;
+    line-height: 15px;
+    left: 125px;
+    top: 200px;
+}
+
+.subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 300px;
+    left: 125px;
+}
+
+.image {
+    display: flex;
+    height: 200px;
+    width: 275px;
+    position: absolute;
+    left: 500px;
+    top: 225px;
+}
+
+.button {
+    display: flex;
+    height: auto;
+    width: auto;
+    color: #3882f6;
+    position: absolute;
+    left: 223px;
+    top: 450px;
+}
+
+
+/* MIDDLE OF WEBSITE */
+
+.container3 {
+    background-color: white;
+    font-family: sans-serif;
+    display: flex;
+    position: absolute;
+    top: 625px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    position: absolute;
+    left: 500px;
+    top: 40px;
+    align-items: center;
+}
+
+.small-images {
+    display: flex;
+    padding: 10px;
+}
+
+.img1, .img2, .img3, .img4 {
+    display: flex;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    margin: 10px;
+    justify-content: space-evenly;
+    position: relative;
+    height: 250px;
+    width: 350px;
+    top: 100px;
+    align-items: flex-start;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* BOTTOM OF WEBSITE */
